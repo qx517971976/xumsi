@@ -7,6 +7,7 @@ from IPy import IP
 ip_s = raw_input('Please input an IP or net-range: ')
 ips = IP(ip_s)
 
+
 if len(ips) > 1:											#IP数量大于1
     print('net: %s' % ips.net())							#输出网络地址
     print('netmask: %s' % ips.netmask())					#输出子网掩码
