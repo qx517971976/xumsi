@@ -6,8 +6,6 @@ from IPy import IP
 #接收输入信息，输入格式如：192.168.0.0/24或192.168.0.1
 ip_s = raw_input('Please input an IP or net-range: ')
 ips = IP(ip_s)
-fd
-放到
 
 if len(ips) > 1:											#IP数量大于1
     print('net: %s' % ips.net())							#输出网络地址
