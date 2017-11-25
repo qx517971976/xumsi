@@ -5,5 +5,6 @@ import tab
 for i in range(3):
     name = raw_input('What is your name?').strip()
     if len(name) == 0:
+#        print "name is not null!!!"
         continue
     break
