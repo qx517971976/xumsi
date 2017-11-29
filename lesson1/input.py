@@ -23,10 +23,10 @@ else:
 
 while True:
     name = raw_input('What is your name?').strip()
-    age = int(raw_input('How old are you?'))
-    if len(name) or len(str(age)) == 0:
+    age = raw_input('How old are you?')
+    if (len(name) == 0 or len(age) == 0):
         continue
     else:
         print "我叫%s" % name
-        print "今年%d岁" % age
+        print "今年%s岁" % age
     break
