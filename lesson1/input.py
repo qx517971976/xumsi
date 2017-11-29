@@ -21,6 +21,7 @@ else:
     print "我叫%s，今年%d岁" %(name,age)
 """
 
+"""
 while True:
     name = raw_input('What is your name?').strip()
     age = raw_input('How old are you?')
@@ -30,3 +31,26 @@ while True:
         print "我叫%s" % name
         print "今年%s岁" % age
     break
+"""
+
+#计数器，10次
+n=0
+while n < 10:
+    n = n + 1
+    name = raw_input('What is your name?').strip()
+    age = raw_input('How old are you?')
+    if (len(name) == 0 or len(age) == 0):
+        continue
+    else:
+        print "我叫%s" % name
+        print "今年%s岁" % age
+
+"""
+for i in range(3):
+    name = raw_input('What is your name?').strip()
+    if len(name) == 0:
+        continue
+    break
+else:
+    print "三次未能输入内容，退出操作"
+"""
