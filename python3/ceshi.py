@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-a = input()
-b = len(a)
-print(b)
+name = '1'
+while not name:
+    name = input()
+    print(name+'name') 

@@ -1,8 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-name=1
-while name != 'your name':
-    print('Please type your name.')
+while True:
+    print('Who are you?')
     name = input()
-print('Thank you!')
+    if name != 'jim':
+        continue
+    while True:
+        print('hello,jim.what is the password?')
+        password = input()
+        if password == '111111':
+            break
+    break
+print('Access granted.')
